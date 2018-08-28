@@ -39,6 +39,14 @@
 			<scope>test</scope>
 		</dependency>
 
+		<!--configuration processor dependency start-->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-configuration-processor</artifactId>
+			<optional>true</optional>
+		</dependency>
+		<!--configuration processor dependency end-->
+
 		<!--tool dependency start-->
 		<dependency>
 			<groupId>cn.hutool</groupId>
